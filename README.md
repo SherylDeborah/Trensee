@@ -1,29 +1,42 @@
-# TRENSEE — Personalized Product Discovery using Deep Behavioral Customer Intelligence
+# TrendSense AI
 
-This project was built with [Lovable](https://lovable.dev).
+TrendSense AI is a data-driven platform designed to identify, analyze, and visualize emerging product trends. It helps users understand changing market interests and discover products that are gaining momentum.
 
-## Build with Lovable
+## Overview
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+TrendSense AI focuses on transforming trend-related data into simple and meaningful insights. The platform provides an interactive interface for exploring products, analyzing trends, and understanding how interest changes over time.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## Key Features
 
-## Development
+- Product trend discovery
+- Trend analysis and visualization
+- Interactive dashboard
+- Product comparison
+- Trend-based insights
+- Responsive user interface
+- Data-driven trend exploration
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Technology Stack
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
-
-## Built with
-
-- TanStack Start
-- TypeScript
 - React
+- TypeScript
+- TanStack Start
+- Vite
 - Tailwind CSS
+- Recharts
+
+## Project Structure
+
+```text
+TrendSense-AI/
+├── public/
+├── src/
+│   ├── components/
+│   ├── routes/
+│   ├── hooks/
+│   ├── lib/
+│   └── assets/
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
